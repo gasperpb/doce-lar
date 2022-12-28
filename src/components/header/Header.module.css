@@ -5,10 +5,15 @@
 .logo {
   display: flex;
   align-items: center;
+  flex: 1;
+  gap: 2rem;
 }
 .logo > img {
-  width: 2.5em;
-  height: 2.5em;
+  width: 2.5rem;
+  height: 2.5rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: auto;
+  background-color: pink;
 }
 .logo > span {
   font-weight: 600;
@@ -24,4 +29,20 @@
   gap: 2rem;
   font-weight: 500;
   list-style: none;
+}
+.menu > li:hover {
+  color: pink;
+  cursor: pointer;
+}
+.search {
+  width: 7rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em;
+}
+.cart {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
 }

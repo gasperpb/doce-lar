@@ -20,8 +20,7 @@ const Header = () => {
                     <li>Vendas</li>
                     <li>Contato</li>
                 </ul>
-                Menu
-                <input type="text" name="" className={css.search} />
+                <input type="text" name="" className={css.search} placeholder='Procurar' />
                 <CgShoppingBag className={css.cart} />
                 <span></span>
             </div>
